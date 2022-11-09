@@ -9,22 +9,22 @@ pipeline {
         }
         stage('Stage 2') {
             steps {
-                echo 'Second stage'
+                echo 'Second stage...'
             }
         }
         stage('Stage 3') {
             steps {
-                echo 'third stage'
+                echo 'third stage...'
             }
         }
         stage('Stage 4') {
             steps {
-                echo 'Forth stage'
+                echo 'Forth stage...'
             }
         }
         stage('Stage 5') {
             steps {
-                echo 'fifth stage'
+                echo 'fifth stage...'
             }
         }
     }
